@@ -1,5 +1,5 @@
 @import "./reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -7,87 +7,83 @@ body {
     padding-top: 60px;
     padding-left: 60px;
 }
-
 /* Card */
 
 .card {
-  width: 420px;
-  padding: 20px 40px 50px ;
+    width: 420px;
+    padding: 20px 40px 50px;
 
-  color: #000;
-  background: #FFFFFF;
-  border: 1px solid #DBB9B9;
-  text-align: center;
-
-
-
+    color: #000;
+    background: #FFFFFF;
+    border: 1px solid #DBB9B9;
+    text-align: center;
 }
 
 .card-img {
-  padding-bottom: 30px ;
+    padding-bottom: 30px;
 }
 
 .card-title {
-  margin: 0 5px 30px;
-  font-size: 32px;
-  font-weight: 700;
-  color: #CD2626;
+    margin: 0 5px 30px;
+
+    font-size: 32px;
+    font-weight: 700;
+    color: #CD2626;
 }
 
 .card-text {
-  margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.5;
+    margin: 0 5px 30px;
+
+    font-size: 14px;
+    line-height: 1.5;
 }
-.card-text p+p {
-  margin-top: 1em;
+
+.card-text p + p {
+    margin-top: 1em;
 }
 
 .price {
-  margin-bottom: 60px;
-  font-size: 32px;
+    margin-bottom: 30px;
+    font-size: 26px;
 }
 
 .card-text a {
-  color: #BD3030;
-  text-decoration: underline;
-
+    color: #BD3030;
+    text-decoration: underline;
 }
 
 .price span {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 /* Button */
 .button {
-  display: inline-block;
-  padding: 14px 75px 19px;
+    display: inline-block;
+    padding: 16px 42px 17px;
+    box-sizing: border-box;
 
-  background: #CD2626;;
-  border: 1px solid #CD2626;;
-  border-radius: 8px;
-  color: #FFFFFF;
-  font-size: 22px;
-  font-weight: 700;
+    background: #CD2626;
 
-  transition:
-    background-color 0.2s ease-in;
-    color 0.2s ease-in;
-    border 0.2s ease-in;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    transition: background-color 0.2s ease-in,
+                color 0.2s ease-in,
+                border 0.2s ease-in;
 
 }
 
 .button:hover, .button:focus {
-  background-color: #FFFFFF;
-  color: #000;
-  border: 1px solid #272727;
+    background-color: #E41919;;
 }
 
 .button:active {
-  position: relative;
-  top: 1px;
+    position: relative;
+    top: 1px;
 
-  background: #444444;
-  border: 1px solid #444444;
-  color: #FFFFFF;
+    background: #8E1010;
+    color: #F1C9C9;
 }
